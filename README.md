@@ -14,7 +14,7 @@
 #### EQUIPO DE PROYECTO :   
 
 ##### JEFE DE ADMINISTRACIÓN
-* __La sobrina del árabe XD__
+* __Kate Diaz__
 
 ##### JEFE DE DOCUMENTACIÓN
 * __Hidalgo Correa, Nicolás__
