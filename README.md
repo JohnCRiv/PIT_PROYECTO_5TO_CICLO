@@ -14,7 +14,7 @@
 #### EQUIPO DE PROYECTO :   
 
 ##### JEFE DE ADMINISTRACIÓN
-* __Kate Diaz__
+* __Katty Collantes Diaz__
 
 ##### JEFE DE DOCUMENTACIÓN
 * __Hidalgo Correa, Nicolás__

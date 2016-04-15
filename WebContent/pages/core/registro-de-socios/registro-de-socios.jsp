@@ -4,14 +4,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<title>Página Ejemplo</title>
+    	<title>Socios</title>
 		<s:include value="../../comun/head.jsp" />
     </head>
 
     <body>
 		
 		<!-- Menu Bar -->
-		<s:include value="../../comun/menu.jsp" />
+		<s:include value="../../comun/menu_recepcionista.jsp" />
 		<!-- End Menu Bar -->
         
         <!-- =======================
@@ -25,26 +25,11 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="btn-group pull-right m-t-15">
-                            <button type="button" class="btn btn-default dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">Settings <span class="m-l-5"><i class="fa fa-cog"></i></span></button>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
+                            <button type="button" class="btn btn-default">Nuevo Socio <span class="m-l-5"><i class="fa fa-user"></i></span></button>
                         </div>
-                        <h4 class="page-title">Form elements</h4>
+                        <h4 class="page-title">Socios</h4>
                         <ol class="breadcrumb">
-                            <li>
-                                <a href="#">Ubold</a>
-                            </li>
-                            <li>
-                                <a href="#">Forms</a>
-                            </li>
-                            <li class="active">
-                                Form elements
-                            </li>
+                            
                         </ol>
 
                     </div>
@@ -56,104 +41,78 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box">
-                            <h4 class="m-t-0 header-title"><b>Input Types</b></h4>
-                            <p class="text-muted m-b-30 font-13">
-                                Most common form control, text-based input fields. Includes support for all HTML5 types: <code>text</code>, <code>password</code>, <code>datetime</code>, <code>datetime-local</code>, <code>date</code>, <code>month</code>, <code>time</code>, <code>week</code>, <code>number</code>, <code>email</code>, <code>url</code>, <code>search</code>, <code>tel</code>, and <code>color</code>.
-                            </p>
+                            <h4 class="m-t-0 header-title"><b>Socios de Pandero</b></h4>
                             <div class="row">
-                                <div class="col-md-6">
-                                    <form class="form-horizontal" role="form">
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Text</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="Some text value...">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label" for="example-email">Email</label>
-                                            <div class="col-md-10">
-                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Password</label>
-                                            <div class="col-md-10">
-                                                <input type="password" class="form-control" value="password">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Placeholder</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" placeholder="placeholder">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Text area</label>
-                                            <div class="col-md-10">
-                                                <textarea class="form-control" rows="5"></textarea>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <form class="form-horizontal" role="form">
-
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Readonly</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" readonly="" value="Readonly value">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Disabled</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" disabled="" value="Disabled value">
-                                            </div>
-                                        </div>
-
-
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Static control</label>
-                                            <div class="col-sm-10">
-                                              <p class="form-control-static">email@example.com</p>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Helping text</label>
-                                            <div class="col-sm-10">
-                                              <input type="text" class="form-control" placeholder="Helping text">
-                                              <span class="help-block"><small>A block of help text that breaks onto a new line and may extend beyond one line.</small></span>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Input Select</label>
-                                            <div class="col-sm-10">
-                                                <select class="form-control">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
-                                                </select>
-                                                <h6>Multiple select</h6>
-                                                <select multiple="" class="form-control">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
-                                                </select>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-
-
+                                <div class="p-20">
+                                        <table class="table table-striped" id="datatable-editable">
+			                                <thead>
+			                                    <tr>
+			                                        <th>Cód. Socio</th>
+			                                        <th>Nombres Completos</th>
+			                                        <th>Tipo Documento</th>
+			                                        <th>Núm. Documento</th>
+			                                        <th></th>
+			                                    </tr>
+			                                </thead>
+			                                <tbody>
+			                                    <tr class="gradeX">
+			                                        <td>SOC-00001</td>
+			                                        <td>Jhon Angel Cruzado Rivera
+			                                        </td>
+			                                        <td>D.N.I</td>
+			                                        <td>70311608</td>
+			                                        <td class="actions">
+			                                            <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+			                                            <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+			                                        </td>
+			                                    </tr>
+			                                    <tr class="gradeC">
+			                                        <td>SOC-00002</td>
+			                                        <td>Oscar Nicolas Hidalgo Correa
+			                                        </td>
+			                                        <td>D.N.I</td>
+			                                        <td>83973742</td>
+			                                        <td class="actions">
+			                                            <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+			                                            <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+			                                        </td>
+			                                    </tr>
+			                                    <tr class="gradeC">
+			                                        <td>SOC-00003</td>
+			                                        <td>Alfredo Kevin Candia Villagómez
+			                                        </td>
+			                                        <td>D.N.I</td>
+			                                        <td>82746251</td>
+			                                        <td class="actions">
+			                                            <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+			                                            <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+			                                        </td>
+			                                    </tr>
+			                                    <tr class="gradeC">
+			                                        <td>SOC-00004</td>
+			                                        <td>Charles Flores Carrasco
+			                                        </td>
+			                                        <td>D.N.I</td>
+			                                        <td>52048277</td>
+			                                        <td class="actions">
+			                                            <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+			                                            <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+			                                        </td>
+			                                    </tr>
+			                                    <tr class="gradeC">
+			                                        <td>SOC-00005</td>
+			                                        <td>Manuel Olórtegui Abanto
+			                                        </td>
+			                                        <td>D.N.I</td>
+			                                        <td>76254098</td>
+			                                        <td class="actions">
+			                                            <a href="#" class="on-default edit-row"><i class="fa fa-pencil"></i></a>
+			                                            <a href="#" class="on-default remove-row"><i class="fa fa-trash-o"></i></a>
+			                                        </td>
+			                                    </tr>
+			                                </tbody>
+                            </table>
+                                    </div>
                             </div>
                         </div>
                     </div>
