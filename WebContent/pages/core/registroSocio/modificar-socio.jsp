@@ -342,7 +342,14 @@
 
                                     </form>
                                 </div>
-
+							<div class="col-md-12">
+									<label class="control-label col-md-3" style="text-align: left;">Firma digital</label>
+	                                    <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin:0px;">
+								            <a class="thumbnail" href="#">
+								                <img class="img-responsive" src="" width="280px;" height="200px;" border="1px solid;" alt="">
+								            </a>
+								        </div>
+								</div>
 
                             </div>
                         </div>

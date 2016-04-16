@@ -332,11 +332,23 @@
 								                </a>
 								            </div>
 										</div>
+										
+										
                                       
 
                                     </form>
+                                    
+                                    
                                 </div>
-
+								
+								<div class="col-md-12">
+									<label class="control-label col-md-3" style="text-align: left;">Firma digital</label>
+	                                    <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin:0px;">
+								            <a class="thumbnail" href="#">
+								                <img class="img-responsive" src="" width="280px;" height="200px;" border="1px solid;" alt="">
+								            </a>
+								        </div>
+								</div>
 
                             </div>
                         </div>
@@ -430,7 +442,7 @@
                                         </div>
                                         <div class="form-group col-md-4">
                                             <label for="">Fecha Nacimiento</label>
-                                            <input type="email" class="form-control" id="" placeholder="nicolas@example.com">
+                                            <input type="email" class="form-control" id="" placeholder="dd/mm/yyyy">
                                         </div>
                                         <button type="submit" class="btn btn-default waves-effect waves-light btn-md pull-right">
                                             Añadir otro
