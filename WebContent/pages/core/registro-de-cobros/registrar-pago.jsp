@@ -229,7 +229,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-sm-2 control-label">Modalidad</label>
+                                            <label class="col-sm-2 control-label">Tipo Obligación</label>
                                             <div class="col-sm-10">
                                                 <select class="form-control" disabled="disabled">
                                                     <option>Con fecha de vencimiento</option>
@@ -258,7 +258,15 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Tipo de Pago</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control">
+                                                    <option>Completa</option>
+                                                    <option>Fraccionada</option>                                                   
+                                                </select>
+                                            </div>
+                                        </div>
 
                                     </form>
                                 </div>
@@ -267,11 +275,11 @@
                                     <form class="form-horizontal" role="form">                                                                                                               
                                         
                                         <div class="form-group">
-                                            <label class="col-sm-2 control-label">Tipo de Pago</label>
+                                            <label class="col-sm-2 control-label">Forma de Pago</label>
                                             <div class="col-sm-10">
                                                 <select class="form-control">
-                                                    <option>Completa</option>
-                                                    <option>Fraccionada</option>                                                   
+                                                    <option>Crédito</option>
+                                                    <option>Tarjeta</option>                                                   
                                                 </select>
                                             </div>
                                         </div>
@@ -303,6 +311,17 @@
                                                 <input type="text" class="form-control" value="" placeholder="Saldo a favor">
                                             </div>
                                         </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Comprobante de Pago</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control">
+                                                    <option>Boleta</option>
+                                                    <option>Factura</option>                                                   
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
 
                                     </form>
                                 </div>
@@ -321,9 +340,17 @@
                             <div class="row">
 
                                 <div class="col-md-12">
+                                        <div class="col-md-12">
+                                	<div class="col-md-6">
                                         <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12">
-                                            Registrar cobro de obligación
+                                            Registrar Pago
                                         </button>
+                                     </div>
+                                     <div class="col-md-6">
+                                        <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12 pull-right" disabled="disabled">
+                                            Imprimir Comprobante de Pago
+                                        </button>
+                                      </div>
                               
                                 </div>
 

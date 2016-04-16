@@ -275,6 +275,12 @@
                                             </div>
                                         </div>
                                         <div class="form-group">
+                                            <label class="col-md-2 control-label">Tarjeta Crédito</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Número Tarjeta">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
                                             <label class="col-md-2 control-label">Telefono</label>
                                             <div class="col-md-10">
                                                 <input type="text" class="form-control" value="" placeholder="Telefono">

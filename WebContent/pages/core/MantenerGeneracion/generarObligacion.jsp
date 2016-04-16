@@ -321,9 +321,16 @@
                             <div class="row">
 
                                 <div class="col-md-12">
+                                	<div class="col-md-6">
                                         <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12">
                                             Generar Obligación de Pagos
                                         </button>
+                                     </div>
+                                     <div class="col-md-6">
+                                        <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12 pull-right" disabled="disabled">
+                                            Imprimir Cronograma
+                                        </button>
+                                      </div>
                               
                                 </div>
 
