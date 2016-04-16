@@ -313,7 +313,7 @@
 	                                    	<label class="control-label col-md-3" style="text-align: left;">Fotografía</label>
 	                                    	<div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin:0px">
 								                <a class="thumbnail" href="#">
-								                    <img class="img-responsive" src="http://placehold.it/250x200" alt="">
+								                    <img class="img-responsive" src="" width="280px;" height="200px;" alt="">
 								                </a>
 							            	</div>
 							            </div>
@@ -447,7 +447,7 @@
 
                                 <div class="col-md-12">
                                         <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12">
-                                            Registrar
+                                            Registrar Socio
                                         </button>
                               
                                 </div>

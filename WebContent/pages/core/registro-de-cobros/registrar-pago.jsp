@@ -170,14 +170,11 @@
                     <!-- Navigation Menu-->
                     <ul class="navigation-menu">
                         <li class="has-submenu active">
-                            <a href="#"><i class="fa fa-user"></i>Socios</a>
+                            <a href="#"><i class="fa fa-user"></i>Pagos</a>
                             <ul class="submenu" style="left: 0px;">
                                 <li class="active">
                                     <a href="index.html">Registrar</a>
-                                </li>
-                                <li>
-                                    <a href="dashboard_2.html">Modificar</a>
-                                </li>
+                                </li>                
   
                             </ul>
                         </li>
@@ -210,129 +207,102 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="card-box">
-                            <h2 class="" style="padding: 5px 20px 30px 20px;">Modificar Socio</h2>
+                            <h2 class="" style="padding: 5px 20px 30px 20px;">Registrar Pago de Obligaciones</h2>
                             
                             <div class="row">
                                 <div class="col-md-6">
                                     <form class="form-horizontal" role="form">
+                               
                                         <div class="form-group">
-                                            <label class="col-md-2 control-label">Nombres</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Nombres" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Apellido Paterno</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Apellido Paterno" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Apellido Materno</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Apellido Materno" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Nacimiento</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Nacimiento" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Nacionalidad</label>
-                                            <div class="col-sm-10">
-                                                <select class="form-control" disabled>
-                                                    <option>Perú</option>
-                                                    <option>USA</option>
-                                                    <option>Colombia</option>
-                                                    <option>Chile</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Tipo Documento</label>
-                                            <div class="col-sm-10">
-                                                <select class="form-control" disabled>
-                                                    <option>DNI</option>
-                                                    <option>Extranjería</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Documento</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Numero" disabled>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Direccion</label>
+                                            <label class="col-md-2 control-label">Obligacion</label>
                                             <div class="col-md-7">
-                                                <input type="text" class="form-control" value="" placeholder="Direccion">
+                                                <input type="text" class="form-control" value="" placeholder="OP-000001" disabled="disabled">
                                             </div>
-                                            <div class="col-md-2">
-                                            	<input type="button" class="btn btn-primary" value="Añadir otra"/>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Telefono</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Telefono" disabled>
+                                            <div class="col-md-3">
+                                                <input type="button" class="btn btn-primary" value="Buscar">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label class="col-md-2 control-label" for="example-email">Email</label>
+                                            <label class="col-md-2 control-label">Socio</label>
                                             <div class="col-md-10">
-                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Email" disabled>
+                                                <input type="text" class="form-control" value="" placeholder="Nicolas Hidalgo Correa" disabled="disabled">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Modalidad</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control" disabled="disabled">
+                                                    <option>Con fecha de vencimiento</option>
+                                                    <option>Sin fecha de vencimiento</option>
+                                                    <option>Pago único</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Número Cuota</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="01" disabled="disabled">
                                             </div>
                                         </div>
                                         
                                         <div class="form-group">
-                                            <label class="col-md-2 control-label" for="example-email">Usuario</label>
+                                            <label class="col-md-2 control-label">Fecha Real de Pago</label>
                                             <div class="col-md-10">
-                                                <input type="email" id="example-email" name="example-email" class="form-control" placeholder="Usuario" disabled>
+                                                <input type="text" class="form-control" value="" placeholder="Fecha real de pago">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Vencimiento</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Fecha Vencimiento">
                                             </div>
                                         </div>
 
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Password</label>
-                                            <div class="col-md-10">
-                                                <input type="password" class="form-control" value="password" disabled>
-                                            </div>
-                                        </div>
-                                        
-										<div class="form-group">
-                                            <label class="col-md-2 control-label">Motivo</label>
-                                            <div class="col-md-10">
-                                                <textarea class="form-control" rows="5"></textarea>
-                                            </div>
-                                        </div>
                                         
 
                                     </form>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <form class="form-horizontal" role="form">
-                                    
-                                    	<div class="col-md-12">
-	                                    	<label class="control-label col-md-3" style="text-align: left;">Fotografía</label>
-	                                    	<div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin:0px">
-								                <a class="thumbnail" href="#">
-								                    <img class="img-responsive" src="" width="280px;" height="200px;" alt="" >
-								                </a>
-							            	</div>
-							            </div>
-							            
-							            <div class="col-md-12">
-											<label class="control-label col-md-3" style="text-align: left;">Huella Digital</label>
-	                                    	<div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin:0px;">
-								                <a class="thumbnail" href="#">
-								                    <img class="img-responsive" src="" width="280px;" height="200px;" border="1px solid;" alt="">
-								                </a>
-								            </div>
-										</div>
-                                      
+                                    <form class="form-horizontal" role="form">                                                                                                               
+                                        
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Tipo de Pago</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control">
+                                                    <option>Completa</option>
+                                                    <option>Fraccionada</option>                                                   
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Mora</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Mora">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Monto a cobrar</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Monto a cobrar">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Monto pagado</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Monto pagado">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label class="col-md-2 control-label">Saldo a favor</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" value="" placeholder="Saldo a favor">
+                                            </div>
+                                        </div>
 
                                     </form>
                                 </div>
@@ -344,107 +314,6 @@
                 </div>
                 
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class="card-box">
-                            <h2 class="" style="padding: 5px 20px 30px 20px;">Datos del Conyuge</h2>
-                            
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <form class="form-horizontal" role="form">
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Nombres</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Nombres">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Apellidos</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Apellidos">
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Nacimiento</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Nacimiento">
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <form class="form-horizontal" role="form">
-                                        <div class="form-group">
-                                            <label class="col-sm-2 control-label">Nacionalidad</label>
-                                            <div class="col-sm-10">
-                                                <select class="form-control">
-                                                    <option>Perú</option>
-                                                    <option>USA</option>
-                                                    <option>Colombia</option>
-                                                    <option>Chile</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                       <div class="form-group">
-                                            <label class="col-sm-2 control-label">Tipo Documento</label>
-                                            <div class="col-sm-10">
-                                                <select class="form-control">
-                                                    <option>DNI</option>
-                                                    <option>Extranjería</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Documento</label>
-                                            <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Numero">
-                                            </div>
-                                        </div>
-                                        
-
-                                    </form>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-				
-				<!-- Inline Form -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card-box">
-                            <h2 class="" style="padding: 0px 5px 5px 5px;">Datos de Hijo(s)</h2>
-        
-                            <div class="row">
-
-                                <div class="col-sm-12">
-                                    <h5><b>Hijo 1</b></h5>
-
-                                    <form class="form-inline">
-                                        <div class="form-group col-md-4">
-                                            <label for="">Nombres</label>
-                                            <input type="text" class="form-control" id="" placeholder="Nombres" disabled>
-                                        </div>
-                                        <div class="form-group col-md-4">
-                                            <label for="">Fecha Nacimiento</label>
-                                            <input type="email" class="form-control" id="" placeholder="nicolas@example.com" disabled>
-                                        </div>
-                                        <button type="submit" class="btn btn-default waves-effect waves-light btn-md pull-right">
-                                            Añadir otro
-                                        </button>
-                                    </form>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-              	<div class="row">
                     <div class="col-md-12">
                         <div class="card-box">
 
@@ -453,7 +322,7 @@
 
                                 <div class="col-md-12">
                                         <button type="submit" class="btn btn-default waves-effect waves-light btn-md col-md-12">
-                                            Modificar Socio
+                                            Registrar cobro de obligación
                                         </button>
                               
                                 </div>
