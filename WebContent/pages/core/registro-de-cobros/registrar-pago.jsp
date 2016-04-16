@@ -248,13 +248,13 @@
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Fecha Real de Pago</label>
                                             <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Fecha real de pago">
+                                                <input type="text" class="form-control" value="" placeholder="Fecha real de pago" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Vencimiento</label>
                                             <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Fecha Vencimiento">
+                                                <input type="text" class="form-control" value="" placeholder="Fecha Vencimiento" disabled="disabled">
                                             </div>
                                         </div>
 
@@ -287,14 +287,14 @@
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Mora</label>
                                             <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Mora">
+                                                <input type="text" class="form-control" value="" placeholder="Mora" disabled="disabled">
                                             </div>
                                         </div>
                                         
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Monto a cobrar</label>
                                             <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Monto a cobrar">
+                                                <input type="text" class="form-control" value="" placeholder="Monto a cobrar" disabled="disabled">
                                             </div>
                                         </div>
                                         
@@ -308,7 +308,7 @@
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Saldo a favor</label>
                                             <div class="col-md-10">
-                                                <input type="text" class="form-control" value="" placeholder="Saldo a favor">
+                                                <input type="text" class="form-control" value="" placeholder="Saldo a favor" disabled="disabled">
                                             </div>
                                         </div>
                                         
